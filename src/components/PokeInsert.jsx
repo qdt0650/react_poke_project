@@ -7,7 +7,7 @@ function PokeInsert() {
          <form className="PokeInsert">
             <input type="text" placeholder="포켓몬 이름을 입력해주세요" />
             <button>
-               <IoSearch />
+               <span>등록</span>
             </button>
          </form>
       </>

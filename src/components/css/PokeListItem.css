@@ -1,0 +1,52 @@
+body,
+html,
+ul,
+li {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+.pokeListItem ul {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.pokeListItem ul li {
+   margin-right: 10px;
+   width: calc(16.666% - 10px);
+}
+.pokeListItem ul li .poke_item {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+.pokeListItem ul li .poke_item img {
+   max-width: 100%;
+   border: 1px solid #eee;
+   border-radius: 5px;
+   padding: 15px;
+   box-sizing: border-box;
+   cursor: pointer;
+}
+.pokeListItem ul li .poke_item span {
+   margin: 10px 0 5px;
+   font-weight: 700;
+}
+.pokeListItem ul li .poke_btn button {
+   border-radius: 4px;
+   background-color: #fc0000;
+   border: none;
+   color: #fff;
+   margin-right: 5px;
+   width: 40px;
+   height: 23px;
+   line-height: 23px;
+   box-sizing: border-box;
+   font-weight: 700;
+   cursor: pointer;
+}
+.pokeListItem ul li .poke_btn button.evolution {
+   background-color: #f29c26;
+}

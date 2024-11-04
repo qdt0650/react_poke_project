@@ -1,10 +1,12 @@
 import './css/PokeList.css'
 import PokeListItem from './PokeListItem'
 
-function PokeList() {
+function PokeList({ pokes }) {
    return (
       <>
-         <PokeListItem></PokeListItem>
+         <div className="pokeList">
+            <PokeListItem pokes={pokes} />
+         </div>
       </>
    )
 }
