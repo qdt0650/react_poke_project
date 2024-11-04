@@ -1,7 +1,12 @@
 import './css/PokeList.css'
+import PokeListItem from './PokeListItem'
 
 function PokeList() {
-   return <></>
+   return (
+      <>
+         <PokeListItem></PokeListItem>
+      </>
+   )
 }
 
 export default PokeList
