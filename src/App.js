@@ -39,8 +39,6 @@ function App() {
       [pokes]
    )
 
-   // 포켓몬 진화
-
    return (
       <>
          <PokeTemplate>
