@@ -1,0 +1,29 @@
+.pokeInsert {
+   margin-top: 10px;
+   position: relative;
+   width: 100%;
+   max-width: 300px;
+}
+.pokeInsert input {
+   width: 100%;
+   box-sizing: border-box;
+   border-radius: 5px;
+   height: 35px;
+   line-height: 35px;
+   border: 1px solid #ddd;
+   background-color: #fff;
+   padding: 0 25px 0 10px;
+}
+.pokeInsert button {
+   position: absolute;
+   cursor: pointer;
+   right: 0;
+   top: 50%;
+   transform: translateY(-50%);
+   border: 0;
+   background-color: transparent;
+}
+.pokeInsert button svg {
+   width: 17px;
+   height: 17px;
+}

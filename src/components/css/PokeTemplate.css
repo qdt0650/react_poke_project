@@ -1,3 +1,16 @@
-.PokeTemplate {
-   margin: 0 15px;
+.pokeTemplate {
+   margin: 20px 15px;
+}
+.pokeTemplate .poke_title {
+   display: flex;
+   align-items: center;
+}
+.pokeTemplate .poke_title img {
+   display: inline-block;
+   width: 25px;
+   margin-right: 5px;
+}
+.pokeTemplate .poke_title span {
+   font-size: 23px;
+   font-weight: 700;
 }

@@ -11,10 +11,10 @@ li {
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   justify-content: space-between;
+   justify-content: start;
 }
 .pokeListItem ul li {
-   margin-right: 10px;
+   margin: 15px 10px 25px 0;
    width: calc(16.666% - 10px);
 }
 .pokeListItem ul li .poke_item {
@@ -49,4 +49,26 @@ li {
 }
 .pokeListItem ul li .poke_btn button.evolution {
    background-color: #f29c26;
+}
+
+/* 비활성화 처리 포켓몬명 회색으로 출력하고 이미지는 흑백*/
+.pokeListItem ul .active .poke_item img {
+   filter: grayscale(100%);
+   cursor: auto;
+}
+.pokeListItem ul .active .poke_item span {
+   color: grey;
+}
+
+@media (max-width: 1024px) {
+   .pokeListItem ul li {
+      margin: 15px 10px 25px 0;
+      width: calc(25% - 10px);
+   }
+}
+@media (max-width: 767px) {
+   .pokeListItem ul li {
+      margin: 15px 10px 25px 0;
+      width: calc(50% - 10px);
+   }
 }
